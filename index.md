@@ -33,8 +33,8 @@ bây giờ chúng ta sẽ đi từng dòng của file trên để xem cụ thể
 - dependencies: khai báo những gói mà project phụ thuộc trên môi trường production, trong trường hợp này là express.js, những phiên bản trong vùng ^4.16.1
 
 ^ gọi là "caret range" caret: 1 cái dấu, range là vùng, hiểu đơn giản là một cái dấu để xác định vùng của phiên bản   
- cho phép những cập nhật phiên bản mà nhỏ hơn số v +1 
- v là số đầu tiên(tính từ trái sang phải) không phải là số 0
+ cho phép những cập nhật phiên bản mà nhỏ hơn số v +1 , v là số đầu tiên(tính từ trái sang phải) không phải là số 0.
+ 
  vd: ^4.16.1
  4 là phiên bản major (bản chính)
  16 là phiên bản minor (bản thứ)
