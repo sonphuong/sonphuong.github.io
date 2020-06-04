@@ -1,0 +1,46 @@
+<div ng-controller="UnitTestController">
+    <div class="">
+        <h2>What is unit testing?</h2>
+        <p>
+            Unit testing is a level of software testing where
+            individual units/components of a software are tested.
+            The purpose is to validate that each unit of the software perform as deigned.
+            A unit is the smallest testable part of any software. It usually has one or a few inputs and usually a single output.
+        </p>
+        <h2>What is Mocha?</h2>
+        <p>
+            Mocha is a testing framework for NodeJS which allows developer to easily test their code
+            Mocha is one of the most popular NodeJS testing framework.
+        </p>   
+        <h2>How to install Mocha?</h2>
+        <code><pre>
+            # global install
+            npm install mocha -g
+            
+            #project install 
+            npm install mocha --save-dev
+        </pre></code>     
+        <h2>How to use Mocha?</h2>
+        <ul>
+            <li>1. Create a directory called test at the root of your project</li>
+            <li>2. Create test files in test folder with following format "something.test.js"</li>
+            <li>3. Update package.json</li>
+            <code><pre>
+                "script": {
+                    "test": "mocha"
+                }
+            </pre></code>
+            <li>4. Run test</li>
+            <code><pre>npm run test</pre></code>
+        </ul>
+        <h5>Sample test code</h5>
+        <code><pre>
+            const assert = require('assert');
+            describe('Simple math test',()=>{
+                it('Should return 2'. ()=>{
+                    assert.equal(1+1,2)
+                })
+            });
+        </pre></code>
+    </div>
+</div>

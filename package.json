@@ -1,0 +1,27 @@
+{
+  "name": "first-app_name",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Son Montana <dosonphuong@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "angular": "^1.7.9",
+    "angular-route": "^1.7.9",
+    "angular-ui-grid": "^4.8.3",
+    "angularjs": "0.0.1",
+    "bootstrap": "^4.5.0",
+    "browser-sync": "^2.26.7",
+    "express": "^4.16.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  }
+}

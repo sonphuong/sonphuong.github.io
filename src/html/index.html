@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <title>Son Montana Programming Blog</title>
+        <link href="css/app.css" rel="stylesheet">
+        <link href="css/libs.css" rel="stylesheet">
+        <script src="js/libs.js"></script>
+    </head>
+    <body ng-app="app">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Nodejs Blog</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">unit test</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid">
+           <div class="row">
+               <div class="col-xs-2">
+                   <nav class="navbar navbar-default navbar-fixed-side">
+                       <ul class="nav navbar-nav">
+                           <li>
+                               <div class="card">
+                                   <img src="img/me.jpeg" alt="Son Phuong" style="width:100%" />
+                                   <h3>Son Phuong</h3>
+                                   <p class="title">Full-stack Developer</p>
+                                   <p>Septeni technology</p>
+                                   <a href="https://github.com/sonphuong"><i class="fa fa-github"></i></a>
+                                   <a href="https://www.linkedin.com/in/sonphuong/"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                           </li>
+                       </ul>
+                   </nav>
+               </div>
+               <div class="col-xs-8">
+                <ng-view class="view"></ng-view>
+               </div>
+           </div>
+        </div>
+    </body>
+    <script src="js/app.js"></script>
+    <script src="js/unittest.js"></script>
+</html>
